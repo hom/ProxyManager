@@ -3,8 +3,8 @@ Module
 {
     Name = "ProxyManager"
     ModuleVersion = "1.0.0"
-    Author = "Your Name"
-    CompanyName = "Your Company"
+    Author = "Meng Jun"
+    CompanyName = "Custom"
     Description = "A PowerShell module for managing proxy settings."
 }
 
