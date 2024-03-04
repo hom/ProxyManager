@@ -13,16 +13,16 @@ function Proxy {
     $proxyAddress = "http://127.0.0.1:7890"
 
     # Set the proxy environment variables
-    $env:http_proxy = $proxyAddress
-    $env:https_proxy = $proxyAddress
+    $env:HTTP_PROXY = $proxyAddress
+    $env:HTTPS_PROXY = $proxyAddress
 
     Write-Host "Proxy settings have been set."
 }
 
 function Unproxy {
     # Remove the proxy environment variables
-    Remove-Item -Path "env:\http_proxy"
-    Remove-Item -Path "env:\https_proxy"
+    Remove-Item -Path "env:\HTTP_PROXY"
+    Remove-Item -Path "env:\HTTPS_PROXY"
 
     Write-Host "Proxy settings have been removed."
 }
