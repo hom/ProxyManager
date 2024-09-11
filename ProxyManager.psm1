@@ -10,7 +10,7 @@ Module
 
 # Define the commands in the module
 function Proxy {
-    $proxyAddress = "http://127.0.0.1:7890"
+    $proxyAddress = "http://127.0.0.1:7897"
 
     # Set the proxy environment variables
     $env:HTTP_PROXY = $proxyAddress
